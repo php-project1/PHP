@@ -1,0 +1,48 @@
+.hidden{
+    display: none;
+}
+body{
+    background-image:url("imgs/background.jpg");
+
+}
+h1{
+    font-family: Baloo Chettan;
+    color: white;
+    font-size: 80px;
+    grid-column: 1;
+    grid-row:1;
+}
+.grid{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    grid-column-gap: 200px;
+}
+p{
+    margin-top: 90px;
+    font-size: 30px;
+    color:white;
+}
+a{
+    color: white;
+    grid-row:3;
+}
+.loginButton{
+    grid-column: 1;
+    grid-row:2;
+}
+.registerLink{
+    font-size: 50px;
+    width: 50px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.dog{
+    grid-column: 2;
+    grid-row:2;
+}
+
+/*Admin*/

@@ -22,9 +22,7 @@ body {
     background-image: url("imgs/background.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgba(0,0,0,.5);
-    text-align: center;
-
+    font-family: Raleway;
 }
 
 .loginh1{
@@ -46,4 +44,9 @@ body {
 .inputlo {
     width: 300px;
     padding: 5px;
+}
+h1{
+    font-family: Baloo Chettan;
+    color: white;
+    font-size: 40px;
 }

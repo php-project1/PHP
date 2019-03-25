@@ -19,9 +19,18 @@ if (!isset($_SESSION['id'])) {
 
 ?>
 
-<h1>Welcome to AMO Login system Admin Page </h1>
-<p>Still nothing special to see here but that's not the point.</p>
-<p>you can only get here while being logged in. Try to close your browser and you'll that you are still logged in!</p>
+<!--<h1>Welcome to AMO Login system Admin Page </h1>-->
+    <link rel="stylesheet" type="text/css" href="admin.css">
+<div class="grid">
+    <h1>A day at the races</h1>
+    <p>You'll need to ether login or register to be able to download the file.</p>
+    <div>
+        <a href="downloadfile/Gokkers.exe" download><img src="imgs/Download.png" alt=""></a>
+
+    </div>
+    <img class="dog" src="imgs/video.png" alt="Video of dogs">
+</div>
 
 
 <?php require 'footer.php'; ?>
+

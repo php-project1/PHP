@@ -1,7 +1,14 @@
 <?php require 'header.php'; ?>
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-   <h1>Welcome to AMO Login system Home Page! </h1>
-   <p>Nothing special to see here but that's not the point.</p>
-   <p>Try going to the ultra secret ultimate vip <a href='admin.php'> admin </a> page without logging in first</p>
+<div class="grid">
+   <h1>A day at the races</h1>
+   <p>You'll need to ether login or register to be able to download the file.</p>
+<div>
+        <a class="loginButton" href='login.php'><img src="imgs/Login.png" alt=""></a>
+    <a class="registerLink" href='register.php'>register</a>
+</div>
+    <img class="dog" src="imgs/video.png" alt="Video of dogs">
+</div>
 
 <?php require 'footer.php'; ?>

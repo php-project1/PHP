@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Baloo Chettan';
+    src: url('BalooChettan-Regular.eot');
+    src: url('BalooChettan-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BalooChettan-Regular.woff2') format('woff2'),
+        url('BalooChettan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.eot');
+    src: url('Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Regular.woff2') format('woff2'),
+        url('Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
