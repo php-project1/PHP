@@ -1,6 +1,6 @@
 <?php require 'header.php'; ?>
 
-<form action="loginController.php" method="post">
+<form action="includes/loginController.php" method="post">
     <input type="hidden" name="type" value="register">
     <div class="form-group">
         <label for="username">username</label>

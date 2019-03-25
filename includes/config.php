@@ -8,7 +8,7 @@
 
 // Connectie met database zoals jullie gewend zijn...
 $dbHost = "localhost";
-$dbName = "login-example";
+$dbName = "loginlist";
 $dbUser = "root";
 $dbPass = "";
 

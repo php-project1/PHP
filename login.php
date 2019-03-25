@@ -1,10 +1,10 @@
 <?php require 'header.php'; ?>
 
-<form action="logincontroller.php" method="post">
+<form action="includes/logincontroller.php" method="post">
     <input type="hidden" name="type" value="login">
     <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="text" name="email" id="email">
     </div>
 
     <div class="form-group">

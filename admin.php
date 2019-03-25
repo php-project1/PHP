@@ -11,11 +11,11 @@
  * als het inloggen in de logincontroller goed is gegaan, neem maar even een kijkje daar.
  * Is dat niet zo, dan helaasch, mag je niet deze site bekijken!
  */
+require 'header.php';
 if (!isset($_SESSION['id'])) {
     die("I'm sorry, this page is for logged in AMO students only.");
 }
 
-require 'header.php';
 
 ?>
 

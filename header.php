@@ -1,11 +1,12 @@
 <?php
-    require 'config.php';
+    require 'includes/config.php';
 ?>
 
 <!-- Even heel easy html code, omdat de focus nu op het inlogsysteem ligt en niet op fancy looks :)  -->
 <html>
 <head>
     <title>Amo Login System homepage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         nav {
             display: flex;
@@ -27,9 +28,19 @@
          *
          */
         if ( isset($_SESSION['id']) ) {
-            echo "You are currently logged in. Want to <a href='register.php'>logout?</a>";
+            //echo "You are currently logged in. Want to <a href='register.php'>logout?</a>";
+            echo "<form action='includes/loginController.php' method='post'>
+                    <input type='hidden' name='type' value='logout'>
+                    <input type='submit' name='submit' id='submit'>
+                  </form>";
         } else {
             echo "<a href='login.php'>Login</a> &nbsp; or &nbsp; <a href='register.php'> register </a>";
+        }
+
+        if (isset($_GET['msg']))
+        {
+            $msg = $_GET['msg'];
+            echo "<p>$msg</p>";
         }
         ?>
     </nav>
