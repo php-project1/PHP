@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+body{
+    background-image:url("imgs/achtergrond.png");
+}
+h1{
+    color: white;
+    font-size: 80px;
+    width: 400px;
+}
