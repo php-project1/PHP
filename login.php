@@ -1,6 +1,8 @@
 <?php require 'header.php'; ?>
 
-<form action="includes/logincontroller.php" method="post">
+<h1 class="loginh1">login om te downloaden</h1>
+
+<form class="loginform" action="includes/logincontroller.php" method="post">
     <input type="hidden" name="type" value="login">
     <div class="form-group">
         <label for="email">Email</label>
