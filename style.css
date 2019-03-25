@@ -19,18 +19,31 @@
 }
 
 body {
-    background-image: url("imgs/background.jpg");
+    background-image: url("imgs/background.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+
 }
 
 .loginh1{
+    padding: 15px;
+    margin: 10px;
     text-align: center;
     font-family: "Baloo Chettan";
+    color: white;
+    font-size: 3em;
 }
 
 .loginform {
     text-align: center;
     margin: 0 auto;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+}
 
+.inputlo {
+    width: 300px;
+    padding: 5px;
 }

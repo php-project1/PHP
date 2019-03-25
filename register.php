@@ -22,6 +22,7 @@
         <input type="password" name="password_confirm" id="password_confirm">
     </div>
 
+    <input type="checkbox" name="algemene-voorwaarde">
     <input type="submit" value="Register">
 </form>
 

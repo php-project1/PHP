@@ -153,12 +153,12 @@ if ($_POST['type'] === 'register') {
     }
 
     //check of algemene voorwaarde checkbox is checked
-//    if (!isset($_POST['algemene-voorwaarde']))
-//    {
-//        $msg = "U moet akkoort gaan met de algemene voorwaarden";
-//        header("location: ../register.php?msg=$msg");
-//        exit;
-//    }
+    if (!isset($_POST['algemene-voorwaarde']))
+    {
+        $msg = "U moet akkoort gaan met de algemene voorwaarden";
+        header("location: ../register.php?msg=$msg");
+        exit;
+    }
 
     // Password length
     if (strlen($password) <= 6)
