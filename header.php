@@ -7,6 +7,7 @@
 <head>
     <title>Amo Login System homepage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <style>
         nav {
             display: flex;

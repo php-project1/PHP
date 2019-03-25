@@ -25,7 +25,10 @@
     <div class="form-group">
         <input class="form" type="password" name="password_confirm" id="password_confirm" placeholder="Re-Enter Password">
     </div>
-
+    <div class="algput">
+        <input class="checkbox" type="checkbox" name="algemene-voorwaarden">
+        <button onclick="voorwaardeFunction()">klik voor algemene voorwaarden</button>
+    </div>
     <input class="formbutton" type="image" src="imgs/Maak_aan.png" value="Register">
 </form>
 
