@@ -1,28 +1,32 @@
 <?php require 'header.php'; ?>
+<link rel="stylesheet" type="text/css" href="register.css">
+
+
+<h1>Maak een account aan</h1>
 
 <form action="includes/loginController.php" method="post">
+
     <input type="hidden" name="type" value="register">
+
     <div class="form-group">
-        <label for="username">username</label>
-        <input type="text" name="username" id="username">
+
+        <input class="form" type="text" name="username" id="username" placeholder="Username">
     </div>
 
     <div class="form-group">
-        <label for="email">email</label>
-        <input type="email" name="email" id="email">
+
+        <input class="form" type="email" name="email" id="email" placeholder="email">
     </div>
 
     <div class="form-group">
-        <label for="password">password</label>
-        <input type="password" name="password" id="password">
+        <input class="form" type="password" name="password" id="password" placeholder="Password">
     </div>
 
     <div class="form-group">
-        <label for="password_confirm">Please confirm your password</label>
-        <input type="password" name="password_confirm" id="password_confirm">
+        <input class="form" type="password" name="password_confirm" id="password_confirm" placeholder="Re-Enter Password">
     </div>
 
-    <input type="submit" value="Register">
+    <input class="formbutton" type="image" src="imgs/Maak_aan.png" value="Register">
 </form>
 
 <?php require 'footer.php'; ?>
