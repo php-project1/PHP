@@ -46,3 +46,9 @@ a{
 }
 
 /*Admin*/
+
+@media only screen and (max-width: 321px) {
+    body {
+        background-color: lightblue;
+    }
+}
