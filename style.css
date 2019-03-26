@@ -57,3 +57,12 @@ h1{
 .algput {
     padding: 5px;
 }
+
+.but {
+    background: none;
+    border: none;
+}
+
+.butpic {
+    width: 300px;
+}

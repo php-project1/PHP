@@ -27,7 +27,7 @@
     </div>
     <div class="algput">
         <input class="checkbox" type="checkbox" name="algemene-voorwaarden">
-        <button onclick="voorwaardeFunction()">klik voor algemene voorwaarden</button>
+        <button  class="but" onclick="voorwaardeFunction()"><img class="butpic" src="imgs/Algemene_voorwaarden.png"></button>
     </div>
     <input class="formbutton" type="image" src="imgs/Maak_aan.png" value="Register">
 </form>

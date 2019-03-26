@@ -35,7 +35,7 @@
                     <input type='submit' name='submit' id='submit'>
                   </form>";
         } else {
-            echo "<a class='hidden' href='login.php'>Login</a> &nbsp; <p class='hidden'>or</p> &nbsp; <a class='hidden'href='register.php'> register </a>";
+            echo "<a class='hidden' href='login.php'>Login</a> &nbsp; <p id='hiddenp' class='hidden'>or</p> &nbsp; <a class='hidden'href='register.php'> register </a>";
         }
 
         if (isset($_GET['msg']))
